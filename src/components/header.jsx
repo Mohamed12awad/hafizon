@@ -2,9 +2,17 @@ import { Container, Row, Col, Button } from "react-bootstrap";
 
 function Header() {
   return (
-    <header className="header my-4">
+    <header className="header py-md-4 my-md-3">
       <Container>
-        <Row>
+        <Row className="d-flex">
+          <Col className="d-flex order-md-1">
+            <img
+              className="mask-group-1 w-100"
+              src={require("../imgs/Group-2-1.png")}
+              alt="Mask group"
+            />
+          </Col>
+
           <Col md={6}>
             <Row className="flex-column">
               <Col>
@@ -24,7 +32,7 @@ function Header() {
                       </span>
                     </p>
                   </div>
-                  <div className="frame-1 my-3">
+                  <div className="frame-1 d-flex my-3">
                     <Button
                       href="#"
                       variant="primary"
@@ -35,7 +43,7 @@ function Header() {
                     <Button
                       href="#"
                       variant="outline-dark"
-                      className="book-button bx-3 py-2"
+                      className="book-button ms-3 bx-4 py-2"
                     >
                       Pricing &amp; Plans
                     </Button>
@@ -53,59 +61,57 @@ function Header() {
                 </div>
               </Col>
               <Col>
-                <div className="group-3">
-                  <div className="frame-3-2">
+                <Row className="group-3">
+                  <Col xs={12} md className="d-flex mt-2 my-md-auto fw-normal">
                     <img
                       className="frame"
                       src={require("../imgs/frame.png")}
                       alt="Frame"
                     />
-                    <div className="x100-money-back-guaranteepoppins-light-black-16px">
+                    <div className="ps-2 ps-md-3 my-auto">
                       <span className="poppins-light-black-16px">
-                        100% Money
-                        <br />
+                        100% Money <br className="d-none d-md-block" />
                         Back Guarantee
                       </span>
                     </div>
-                  </div>
-                  <div className="frame-5-2">
+                  </Col>
+                  <Col
+                    xs={12}
+                    md
+                    className="frame-5-2 d-flex my-2 my-md-auto fw-normal"
+                  >
                     <img
                       className="frame"
                       src={require("../imgs/frame.png")}
                       alt="Frame"
                     />
-                    <div className="experienced-teachersexperiencedpoppins-light-black-16px">
+                    <div className="ps-2 ps-md-3 my-auto">
                       <span className="poppins-light-black-16px">
-                        Experienced
-                        <br />
+                        Experienced <br className="d-none d-md-block" />
                         Teachers
                       </span>
                     </div>
-                  </div>
-                  <div className="frame-6-1">
+                  </Col>
+                  <Col
+                    xs={12}
+                    md
+                    className="frame-6-1 d-flex my-auto fw-normal"
+                  >
                     <img
                       className="frame"
                       src={require("../imgs/frame.png")}
                       alt="Frame"
                     />
-                    <div className="flexible-schedulepoppins-light-black-16px">
+                    <div className="ps-2 ps-md-3 my-auto">
                       <span className="poppins-light-black-16px">
-                        Flexible
-                        <br />
+                        Flexible <br className="d-none d-md-block" />
                         Schedule
                       </span>
                     </div>
-                  </div>
-                </div>
+                  </Col>
+                </Row>
               </Col>
             </Row>
-          </Col>
-          <Col md={{ order: 1 }}>
-            <img
-              className="mask-group-1 w-100"
-              src={require("../imgs/Group-2-1.png")}
-              alt="Mask group"
-            />
           </Col>
         </Row>
       </Container>

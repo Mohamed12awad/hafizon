@@ -24,7 +24,7 @@ function NavBar() {
             <Offcanvas.Header closeButton>
               <Offcanvas.Title
                 id={`offcanvasNavbarLabel-expand-lg`}
-                className="text-uppercase"
+                className="text-uppercase fw-bold h5"
               >
                 Hafizon academy
               </Offcanvas.Title>
@@ -53,7 +53,7 @@ function NavBar() {
               <Button
                 href="#"
                 variant="primary"
-                className="book-button bg-theme-2"
+                className="book-button bg-theme-2 mt-2"
               >
                 Book Free Session
               </Button>
