@@ -340,6 +340,7 @@ header .group-3::before {
 .bg-theme-2 {
   background-color: var(--absolute-zero) !important;
 }
+
 @media (max-width: 575.98px) {
   body::after {
     opacity: 50%;
