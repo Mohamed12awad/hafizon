@@ -33,7 +33,7 @@ function NavBar() {
               <Nav className="justify-content-center text-capitalize flex-grow-1 pe-3">
                 <Nav.Link href="#action1">Home</Nav.Link>
                 <NavDropdown
-                  title="Dropdown"
+                  title="Courses"
                   id={`offcanvasNavbarDropdown-expand-lg`}
                 >
                   <NavDropdown.Item href="#action3">Action</NavDropdown.Item>

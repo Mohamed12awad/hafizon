@@ -61,7 +61,11 @@ function Header() {
               </Col>
               <Col>
                 <Row className="group-3">
-                  <Col xs={12} md className="d-flex mt-2 my-md-auto fw-normal">
+                  <Col
+                    xs={12}
+                    md={5}
+                    className="d-flex mt-2 my-md-auto fw-normal"
+                  >
                     <img
                       className="frame"
                       src={require("../imgs/frame.png")}
