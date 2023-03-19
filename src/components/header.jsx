@@ -50,7 +50,6 @@ function Header() {
                   </div>
                 </div>
               </Col>
-              {/* <img className="group-2-1" src="group-2-1.png" alt="Group 2" /> */}
               <Col>
                 <div className="overlap-group1">
                   <p className="starting-at-only-17-monthpoppins-semi-bold-absolute-zero-18px">
